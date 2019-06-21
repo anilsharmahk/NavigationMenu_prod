@@ -1,0 +1,97 @@
+<nav search_view="search" color="#006699" >
+ 
+  <view name="tlc_landing_page" default="true" />
+    
+<collection label="Theatres">
+
+  <view name="tlc_dsh_home"/>
+  <view name="Daily_Stats_Theatre_Cases"/>
+  <view name="Theatre_Robotic_Procedures"/>  
+  <view name="tlc_utilisation" />
+  <view name="tlc_theatres_clinicians" />
+  <view name="Theatre_Time_allocated" />
+  <view name="TheatresAllocationVsActual" />
+  <view name="tlc_theatres_allocation_booking" />
+ 
+ 
+ </collection>
+  <collection label="Finance">
+   <view name="tlc_finance_clinician_trend_view" />
+   <view name="tlc_finance_admissions"/>
+   <view name="tlc_revenue_bar_recon_view" />
+   
+</collection>
+<collection label="Oncology">
+   <view name="tlc_oncology_mdt_analysis" />
+   <view name="tlc_oncology_specialty_view" />
+  
+   </collection>
+ <collection label="Executive Board">
+   	<view name="tlc_exec_activity_drivers" />
+   	<view name="tlc_exec_activity_colorectal_surgeons" />
+    <view name="exec_endoscopy_activity" />
+	<view name="tlc_exec_activity_endoscopy_surgeons" />
+   	<view name="tlc_exec_conversion_rate_analysis" />
+   	<view name="tlc_exec_clinician_privileges" />
+	<view name="tlc_exec_insurance_trends_bupa" />
+	<view name="tlc_exec_insurance_trends_axa" />
+	<view name="tlc_theatres_overview" />
+	<view name="tlc_exec_self_pay" />
+         
+  </collection>
+ <collection label="Physiotherapy">
+   <view name="tlc_cis_appointment_metrics" />
+
+            
+  </collection>
+ <collection label="Radiology">
+ <view name="tlc_radiology__patient_volumes" />
+ <view name="tlc_radiology__revenue" />
+ <view name="tlc_radiology__clinician_view" />
+ <view name="tlc_radiology__specialty_view" />
+ <view name="tlc_radiology__utilisation" />
+</collection>
+  
+ 
+   
+ <collection label="Admin">  
+     <view name="tlc_user_logins" />
+</collection>
+  
+  
+
+   <collection label="DEV">
+    <view name="dev_tlc_finance_aged_debt_insurers" />
+    <view name="dev_tlc_finance_aged_debt_report" />
+	<view name="dev_nursing_floor_tracker" />
+  	<view name="dev_tlc_revenue__stats_testing" />
+    <view name="dev_tlc_revenue_daily_stats"/>
+    <view name="dev__daily_stats_mtd" />
+    <view name="tlc_revenue__admissions_analysis"/>
+ 	<view name="dev_tlc_revenue_occupancy" />
+    <view name="tlc_revenue__monthly_mi_report"/>
+    <view name="dev_th-1_Clinician_Utilisation" />
+ 	<view name="dev_th-2_Theatre_Utilisation" />
+    <view name="dev_th-3_Schedule_Density" />
+    <view name="dev_th-4_Live_Allocation_View" />
+    <view name="dev_th-1_theatreUtilisation" />
+ 	<view name="dev_th2_theatreutilisation_weekly" />
+
+
+</collection>
+  <collection label="UAT">
+   <view name="uat_clinician_trend_view_clone" />
+ <view name="uat_activity__endoscopy__colorectal"  />
+
+
+
+</collection>
+
+<collection label="Other">
+  <view name="search" />
+  <view name="dashboards" default="true" />
+ <view name="reports" />
+ 
+</collection>
+   
+</nav>
